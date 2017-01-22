@@ -1,0 +1,30 @@
+# bldc
+# 2017-01-16 04:16:35Z
+
+dont_use_location p4abufcell -1 -1 1
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "uhigh(0)" iocell 2 6
+set_io "ulow(0)" iocell 2 7
+set_io "vhigh(0)" iocell 2 4
+set_io "vlow(0)" iocell 2 5
+set_io "vin(0)" iocell 3 2
+set_io "err(0)" iocell 3 3
+set_io "enable_gate_driver(0)" iocell 1 2
+set_io "whigh(0)" iocell 1 0
+set_io "wlow(0)" iocell 1 1
+set_io "A(0)" iocell 0 0
+set_io "B(0)" iocell 0 1
+set_io "\ADC:Bypass(0)\" iocell 1 7
+set_io "direction(0)" iocell 4 3
+set_io "step(0)" iocell 4 2
+set_io "reset(0)" iocell 4 1
+set_io "error(0)" iocell 4 0
+set_io "\UART:tx(0)\" iocell 3 1
+set_io "\UART:rx(0)\" iocell 3 0
+set_io "fault_gate_driver(0)" iocell 0 7
+set_io "IV(0)" iocell 2 3
+set_io "IU(0)" iocell 2 2
+set_io "XU(0)" iocell 0 2
+set_io "XV(0)" iocell 0 3
+set_io "XW(0)" iocell 0 6
+set_location "\ADC:cy_psoc4_sar\" p4sarcell -1 -1 0

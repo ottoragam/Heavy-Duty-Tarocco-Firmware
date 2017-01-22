@@ -1,0 +1,186 @@
+D:/code/cypress/controllers/bldc.cydsn/CortexM0/ARM_GCC_493/Debug/main.o : D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/A.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC_IRQ.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC_intClock.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/A_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/B.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/B_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Bootloadable_1.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_1.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_2.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_3.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_4.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_5.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyFlash.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/EEPROM.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IU.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IU_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IV.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IV_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_Cnt16.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_PVT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_isr.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/TX_SEND.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PINS.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PVT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UPWM.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/VPWM.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/WPWM.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XU.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XU_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XV.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XV_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XW.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XW_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cmsis_armcc.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cmsis_gcc.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cm0.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cmFunc.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cmInstr.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyPm.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydisabledsheets.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cypins.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/direction.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/direction_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/enable_gate_driver.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/enable_gate_driver_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/err.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/err_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/error.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/error_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/fault_gate_driver.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/fault_gate_driver_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/project.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/reset.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/reset_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/rxISR.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/step.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/stepISR.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/step_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/txISR.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/uhigh.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/uhigh_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ulow.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ulow_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vhigh.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vhigh_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vin.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vin_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vlow.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vlow_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/whigh.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/whigh_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/wlow.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/wlow_aliases.h D:/code/cypress/controllers/bldc.cydsn/main.c 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/A.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC_IRQ.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ADC_intClock.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/A_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/B.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/B_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Bootloadable_1.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_2.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_3.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_4.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/Clock_5.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/EEPROM.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IU.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IU_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IV.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/IV_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_Cnt16.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_PVT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/QDEC_isr.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/TX_SEND.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UPWM.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/VPWM.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/WPWM.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XU.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XU_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XV.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XV_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XW.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/XW_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/direction.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/direction_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/enable_gate_driver.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/enable_gate_driver_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/err.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/err_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/error.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/error_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/fault_gate_driver.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/fault_gate_driver_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/project.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/reset.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/reset_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/rxISR.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/step.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/stepISR.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/step_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/txISR.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/uhigh.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/uhigh_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ulow.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/ulow_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vhigh.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vhigh_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vin.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vin_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vlow.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/vlow_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/whigh.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/whigh_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/wlow.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/wlow_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/main.c : 
+

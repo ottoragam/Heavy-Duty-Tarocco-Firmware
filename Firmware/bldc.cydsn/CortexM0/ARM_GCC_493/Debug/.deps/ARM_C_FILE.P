@@ -1,0 +1,46 @@
+D:/code/cypress/controllers/bldc.cydsn/CortexM0/ARM_GCC_493/Debug/UART_BOOT.o : D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.c D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PINS.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PVT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cypins.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.c : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/code/cypress/controllers/bldc.cydsn/CortexM0/ARM_GCC_493/Debug/UART_UART_BOOT.o : D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_BOOT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PINS.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_PVT.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_UART_BOOT.c D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cypins.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/UART_UART_BOOT.c : 
+
+D:/code/cypress/controllers/bldc.cydsn/CortexM0/ARM_GCC_493/Debug/cyfitter_cfg.o : D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/CyLib.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+D:/code/cypress/controllers/bldc.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
