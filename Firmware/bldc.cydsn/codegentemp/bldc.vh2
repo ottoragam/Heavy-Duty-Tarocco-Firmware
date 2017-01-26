@@ -2,7 +2,7 @@
 --	Conversion of bldc.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Jan 15 22:16:35 2017
+--	Thu Jan 26 10:50:19 2017
 --
 
 USE cypress.cypress.all;

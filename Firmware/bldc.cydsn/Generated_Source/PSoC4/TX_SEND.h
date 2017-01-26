@@ -75,7 +75,7 @@ extern uint8  TX_SEND_initVar;
 #define TX_SEND_TC_RUN_MODE                    (0lu)
 #define TX_SEND_TC_COUNTER_MODE                (0lu)
 #define TX_SEND_TC_COMP_CAP_MODE               (2lu)
-#define TX_SEND_TC_PRESCALER                   (0lu)
+#define TX_SEND_TC_PRESCALER                   (7lu)
 
 /* Signal modes */
 #define TX_SEND_TC_RELOAD_SIGNAL_MODE          (0lu)

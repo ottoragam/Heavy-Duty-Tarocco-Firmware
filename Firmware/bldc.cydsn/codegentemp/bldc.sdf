@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2017-01-16T04:16:37Z")
+ (DATE "2017-01-26T16:50:21Z")
  (DESIGN "bldc")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")

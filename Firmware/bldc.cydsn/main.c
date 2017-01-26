@@ -17,7 +17,7 @@
 //how many encoder counts per step pulse
 #define SET_POINT_MULTIPLIER    1
 //number of cpu cycles the motor has to reach the desired position afeter each step pulse
-#define TIMEOUT                 20000
+#define TIMEOUT                 5000
 
 int fast_itoa(char a_string[7], int16_t a_number) {
     if(a_number<0) {
@@ -71,10 +71,10 @@ int main() {
 
     int16_t error=0, error_integral=0, error_derivative=0, error_at_timeout=0, millivolts=0, duty_reduce=0;
     int32_t output=0, process_variable=0, process_variable_prev=0;
-    uint8_t motor_shutdown=0, timeout_flag=0;
+    uint8_t fault_detected=0, motor_shutdown=0, timeout_flag=0;
     
     //emulated EEPROM 
-    static const CYCODE uint8_t kp=30, ki=5, kd=00, current_setting=255, invert_motor=1, ferror=255, uart_data=1;
+    static const CYCODE uint8_t kp=30, ki=5, kd=00, current_setting=255, invert_motor=0, ferror=255, uart_data=1;
     //pointers to respective EEPROM addresses
     volatile const uint8_t *eeprom_kp, *eeprom_ki, *eeprom_kd, *eeprom_current_setting, *eeprom_invert_motor, *eeprom_ferror, *eeprom_uart_data;
 
@@ -97,7 +97,6 @@ int main() {
     EEPROM_Start();
     //prepare gate driver for operation.  12-bit 6 kHz PWM
     enable_gate_driver_Write(1);
-    //UPWM_Start();
     VPWM_Start();
     WPWM_Start();
     
@@ -125,6 +124,7 @@ int main() {
         if(error>*eeprom_ferror || error<-*eeprom_ferror) {
             error_Write(0);
             err_Write(1);
+            fault_detected=1;
         }
         //if no new step pulse is received for a number of cycles, shut down the motor, until a new step pulse is received or the motor gets out of position
         else {
@@ -139,7 +139,7 @@ int main() {
                     timeout_flag=1;
                     motor_shutdown=1;
                 }
-                if(error_at_timeout-error>2 || error_at_timeout-error<-2) timeout_counter=0;
+                if(error_at_timeout-error>3 || error_at_timeout-error<-3) timeout_counter=0;
             }
         }
         
@@ -149,7 +149,8 @@ int main() {
         
         //reset pin
         if(reset_Read()==0) {
-            motor_shutdown=1;
+            err_Write(1);
+            fault_detected=1;
         }
         
          //current limiting PI control loop
@@ -173,42 +174,48 @@ int main() {
         
         //output value calculation and constraining
         output=(*eeprom_kp*error)+((*eeprom_ki*error_integral)>>10)-(*eeprom_kd*error_derivative);
-        if(*eeprom_invert_motor) {
-            if(output>=0) {
-                VPWM_WriteCompare(1);
-                if(output>4095) output=4095;
-                output-=duty_reduce;
-                if(output<1) output=1;
-                if(motor_shutdown) WPWM_WriteCompare(1);
-                else WPWM_WriteCompare(output);
-            }
-            else {
-                output=-output;
-                WPWM_WriteCompare(1);
-                if(output>4095) output=4095;
-                output-=duty_reduce;
-                if(output<1) output=1;
-                if(motor_shutdown) VPWM_WriteCompare(1);
-                else VPWM_WriteCompare(output);
-            }
+        if(fault_detected) {
+            VPWM_WriteCompare(1);
+            WPWM_WriteCompare(1);
         }
         else {
-            if(output>=0) {
-                WPWM_WriteCompare(1);
-                if(output>4095) output=4095;
-                output-=duty_reduce;
-                if(output<1) output=1;
-                if(motor_shutdown) VPWM_WriteCompare(1);
-                else VPWM_WriteCompare(output);
+    		if(*eeprom_invert_motor) {
+                if(output>=0) {
+                    VPWM_WriteCompare(1);
+                    if(output>4095) output=4095;
+                    output-=duty_reduce;
+                    if(output<1) output=1;
+                    if(motor_shutdown) WPWM_WriteCompare(1);
+                    else WPWM_WriteCompare(output);
+                }
+                else {
+                    output=-output;
+                    WPWM_WriteCompare(1);
+                    if(output>4095) output=4095;
+                    output-=duty_reduce;
+                    if(output<1) output=1;
+                    if(motor_shutdown) VPWM_WriteCompare(1);
+                    else VPWM_WriteCompare(output);
+                }
             }
             else {
-                output=-output;
-                VPWM_WriteCompare(1);
-                if(output>4095) output=4095;
-                output-=duty_reduce;
-                if(output<1) output=1;
-                if(motor_shutdown) WPWM_WriteCompare(1);
-                else WPWM_WriteCompare(output);
+                if(output>=0) {
+                    WPWM_WriteCompare(1);
+                    if(output>4095) output=4095;
+                    output-=duty_reduce;
+                    if(output<1) output=1;
+                    if(motor_shutdown) VPWM_WriteCompare(1);
+                    else VPWM_WriteCompare(output);
+                }
+                else {
+                    output=-output;
+                    VPWM_WriteCompare(1);
+                    if(output>4095) output=4095;
+                    output-=duty_reduce;
+                    if(output<1) output=1;
+                    if(motor_shutdown) WPWM_WriteCompare(1);
+                    else WPWM_WriteCompare(output);
+                }
             }
         }
         
@@ -256,8 +263,8 @@ int main() {
         }
         
         //prepare UART strings
-        //fast_itoa(current_tx, 5*millivolts);
         fast_itoa(error_tx, error+400);
+        //fast_itoa(current_tx, 5*millivolts);
         
         //string transmission begins with '$' and ends with ';'
         //insert a ' ' between each string
@@ -273,7 +280,6 @@ int main() {
                 transmit_ready=0;
             }
         }
-                
     }
 }
 

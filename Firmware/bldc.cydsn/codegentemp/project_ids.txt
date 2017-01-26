@@ -1,7 +1,6 @@
-D:\code\cypress\controllers\bldc.cydsn\bldc.cyprj|446a6ca7-185a-4a04-9e2d-8174f08bc095
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fab3c3d7-eac7-4796-9b5b-f01f3aed0e77
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c608c411-1850-4fac-ae75-5dfda30f7fac
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bd83debd-b49f-45e2-9f48-0a357d82db0f
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f53113fd-4b29-427c-94e8-25064baff352
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|805d9d14-9aa9-468f-8f65-332222ba8ef6
-D:\code\cypress\controllers\dcsd.cydsn\dcsd.cyprj|e19e8671-da47-4567-bbe7-727ff2c61924
+D:\code\cypress\controllers\qdec.cydsn\qdec.cyprj|acc6b4d7-2e95-40d3-ac90-400f32d030e9
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|3680677b-0804-4d57-812d-c6d4d2c105fa
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d7e5aadd-38b0-43a5-a6b6-0464d04ec5e4
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|6e048d39-a2d1-456e-9ba3-63a7ca3d8777
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|272f4208-1475-4da2-9ca4-f5efeb931de1
+D:\code\cypress\controllers\bldc.cydsn\bldc.cyprj|c3f7efcf-80b8-422f-82ea-d88b884fe5ec
