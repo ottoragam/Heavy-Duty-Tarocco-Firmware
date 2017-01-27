@@ -1,0 +1,11 @@
+# test-code
+# 2017-01-27 04:15:46Z
+
+dont_use_location p4abufcell -1 -1 1
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "vhigh(0)" iocell 2 4
+set_io "vlow(0)" iocell 2 5
+set_io "vin(0)" iocell 3 2
+set_io "err(0)" iocell 3 3
+set_io "whigh(0)" iocell 1 0
+set_io "wlow(0)" iocell 1 1

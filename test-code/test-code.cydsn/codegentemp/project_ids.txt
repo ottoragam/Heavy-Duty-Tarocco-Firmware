@@ -1,0 +1,8 @@
+D:\code\cypress\controllers\qdec.cydsn\qdec.cyprj|874f01db-2ebb-4a10-9d91-a4710dbcf8da
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|3f94cf31-f883-4913-858d-697867ad416d
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9f6d7ed0-6795-4f4e-abd7-72fbd12079ba
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|274282c0-951d-4460-a92a-69d023e0d16a
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|71e405c7-e866-4c52-aa52-20ee7e902996
+D:\code\cypress\controllers\bldc.cydsn\bldc.cyprj|96dcd88c-4694-4bbc-9fc4-bdea4f19ce26
+D:\code\cypress\controllers\dcsd.cydsn\dcsd.cyprj|124f2e50-7f0b-4136-b125-0b439f7fd116
+D:\code\cypress\controllers\test-code.cydsn\test-code.cyprj|6dffd03c-3747-4a71-9438-713ab67f19ac
